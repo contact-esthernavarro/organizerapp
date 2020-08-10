@@ -15,7 +15,7 @@ export class ClockContainer extends Component {
  
   render() {
     return (
-      <div style={{color: themeColors.f2color, fontFamily: themeFonts.f1font, fontSize: '30px'}}>
+      <div style={{color: themeColors.f3color, fontFamily: themeFonts.f1font, fontSize: '30px'}}>
         <p> 
         <span style={{ padding: '20px'}}> 
           { this.state.date.toLocaleDateString('en-US',{ weekday: 'long', month: 'long', day: 'numeric' }) } 

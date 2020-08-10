@@ -1,4 +1,23 @@
 @import './header';
 @import './section';
 
+$main-font: 'Amatic SC', cursive;
+$f3-color: #31493c;
 
+.quotes{
+  width: 50%;
+  margin: auto;
+  padding-top: 3%;
+  font-size: 20px;
+  p{
+    width: 50%;
+    margin: auto;
+    padding-right: 5%;
+    font-family: $main-font;
+    color: $f3-color;
+  }
+}
+
+.wide-text{
+  font-stretch: expanded;
+}
