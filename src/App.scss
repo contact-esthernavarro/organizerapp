@@ -1,0 +1,19 @@
+$bg-color: #001a23;
+$main-font-color: #e8f1f2;
+$main-font-family: 'Amatic SC', cursive;
+$f1-color: #001a23;
+$f2-color: #31493c;
+$f3-color: #7a9e7e;
+$f4-color: #b3efb2;
+$f5-color: #e8f1f2;
+
+
+body{
+  font-family: $main-font-family;
+  color: $main-font-color;
+  background: linear-gradient(#e66465, #9198e5);
+}
+
+.App{
+  background-color: $bg-color;
+}

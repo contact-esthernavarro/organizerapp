@@ -1,0 +1,37 @@
+$f-color: #001a23;
+$f-font: 'Amatic SC', cursive;
+$img1: '../utils/header-image1.jpg';
+
+@import './responsive';
+
+h1{
+  color: $f-color;
+  font-family: $f-font;
+  font-size: 70px;
+  padding-top: 20%;
+  text-align: center;
+  margin: auto;
+  @include max-device("tablet"){
+    padding-top: 50%;
+    font-size: 50px;
+  }
+  @include max-device("phone"){
+    padding-top: 50%;
+    font-size: 50px;
+  }
+}
+
+.header{
+  background-color: white;
+  background-image: url($img1);
+  background-position: center;
+  background-size: cover; 
+  text-align: center;
+  height: 100vh;
+  @include max-device("tablet") {
+    background-size: cover;
+    background-position: center top;
+  }
+}
+
+
