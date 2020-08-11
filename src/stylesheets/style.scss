@@ -27,11 +27,14 @@ $f5-color: #e8f1f2;
   font-stretch: expanded;
 }
 
+.center{
+  text-align: center;
+}
+
 .section{
   font-family: $main-font;
-  font-size: 2vw;
+  font-size: 4vw;
   color: $f5-color;
   margin: auto;
-  padding-top: 5%;
   width: 50%;
 }

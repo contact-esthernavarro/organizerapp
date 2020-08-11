@@ -22,12 +22,34 @@ export class Todos extends Component {
     ]
   }
 
+  isCompleted = (id) => {
+    this.setState({
+      todos: this.state.todos.map((item) => {
+        if(item.id === id){
+          item.completed = !item.completed;
+        }
+        return item;
+      })
+    })
+  }
+
+  deleteItem = (id) => {
+    this.setState({
+      todos: [...this.state.todos.filter((item) => {
+        return item.id !== id
+      })]
+    })
+  }
+
   render() {
     
     return (
       <div>
-        <h4>Todos here</h4>
-        <TodoList todos={this.state.todos}/>
+        <TodoList 
+          todos={this.state.todos} 
+          isCompleted={this.isCompleted}
+          deleteItem={this.deleteItem}
+        />
       </div>
     )
   }

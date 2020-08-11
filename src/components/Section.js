@@ -13,10 +13,11 @@ export class Section extends Component {
       <CssBaseline />
       <Container disableGutters={true} maxWidth="md" >
         <Typography component="div" 
-          style={{ backgroundColor: themeColors.f1color, 
-          height: '100vh'}}>
+          style={{ 
+            backgroundColor: themeColors.f1color, 
+            height: '100vh'}}>
             <div className="section">
-              <h2>TODO CHECKLIST</h2>
+              <h2 className="center">TODO CHECKLIST</h2>
               <Todos/>
             </div>
         </Typography>
