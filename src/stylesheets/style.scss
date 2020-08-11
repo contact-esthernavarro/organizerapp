@@ -1,8 +1,13 @@
 @import './header';
 @import './section';
+@import './animations';
 
 $main-font: 'Amatic SC', cursive;
-$f3-color: #31493c;
+$f1-color: #001a23;
+$f2-color: #31493c;
+$f3-color: #7a9e7e;
+$f4-color: #b3efb2;
+$f5-color: #e8f1f2;
 
 .quotes{
   width: 50%;
@@ -14,10 +19,19 @@ $f3-color: #31493c;
     margin: auto;
     padding-right: 5%;
     font-family: $main-font;
-    color: $f3-color;
+    color: $f2-color;
   }
 }
 
 .wide-text{
   font-stretch: expanded;
+}
+
+.section{
+  font-family: $main-font;
+  font-size: 2vw;
+  color: $f5-color;
+  margin: auto;
+  padding-top: 5%;
+  width: 50%;
 }
