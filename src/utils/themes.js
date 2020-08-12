@@ -9,15 +9,25 @@
 
 export const themeColors = {
   f1color: '#001a23',
-  f2color: '#31493c',
-  f3color: '#7a9e7e',
-  f4color: '#b3efb2',
+  f2color: '#104f55',
+  f3color: '#32746d',
+  f4color: '#a6a2a2',
   f5color: '#e8f1f2',
-  f1faded: 'rgba(0, 26, 35, 0.2)',
+  btn1color: '#e3b505',
   transparent: 'transparent'
 }
 
 export const themeColors2 = {
+  f1color: '#001a23',
+  f2color: '#31493c',
+  f3color: '#7a9e7e',
+  f4color: '#b3efb2',
+  f5color: '#e8f1f2',
+  btn1color: '#c20114',
+  transparent: 'transparent'
+}
+
+export const themeColors3 = {
   f1color: '#05668d',
   f2color: '#028090',
   f3color: '#00a896',
@@ -29,7 +39,8 @@ export const themeFonts = {
   f1font: 'Amatic SC',
   f2font: 'Caveat',
   f3font: 'Quicksand',
-  f4font: 'Viga'
+  f4font: 'Viga',
+  f5font: 'Roboto'
 }
 
 export const mainFonts = {

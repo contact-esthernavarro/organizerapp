@@ -10,7 +10,7 @@ export class TodoItem extends Component {
   getWrapperStyle = () => {
     return {
       fontSize: '3vh',
-      paddingLeft: '20px',
+      paddingLeft: '10px',
       textDecoration: this.props.todo.completed ? 'line-through' : 'none',
     }
   }
@@ -42,17 +42,20 @@ export class TodoItem extends Component {
 }
 
 TodoItem.propTypes = {
-  todo: PropTypes.object.isRequired
+  todo: PropTypes.object.isRequired,
+  isCompleted: PropTypes.func.isRequired,
+  deleteItem: PropTypes.func.isRequired
 }
 
 const checkBoxStyle = {
   height: 'auto',
-  color: themeColors.f3color
+  color: themeColors.btn1color,
+  float: 'left'
 }
 
 const deleteButtonStyle = {
   height: 'auto',
-  color: themeColors.f3color,
+  color: themeColors.btn1color,
   float: 'right'
 }
 
